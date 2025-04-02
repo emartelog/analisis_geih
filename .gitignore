@@ -1,0 +1,16 @@
+# Ignorar archivos de datos
+*.csv
+*.xlsx
+*.db
+*.parquet
+
+# Ignorar archivos temporales y configuraciones locales
+*.log
+*.tmp
+.DS_Store
+__pycache__/
+.env
+
+# Ignorar archivos de Jupyter Notebook con resultados previos
+*.ipynb_checkpoints/
+
